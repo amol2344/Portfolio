@@ -65,7 +65,7 @@ export default function About() {
             </p>
 
             <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
-              I build scalable, modern applications with a strong focus on clean architecture, 
+              I have build scalable, modern applications with a strong focus on clean architecture, 
               delightful UX, and performance. My toolkit  React, Node.js, Express.js 
               MongoDB, Tailwind CSS, and Restful API — bringing ideas to life from 
               concept to production with robust APIs and smooth interfaces.
