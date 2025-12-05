@@ -3,7 +3,7 @@ import { motion, AnimatePresence, useMotionValueEvent, useScroll } from "framer-
 
 
 import img3 from "../src/assets/Portfollio.png";
-import img4 from "../src/assets/img4.PNG";
+import img4 from "../src/assets/img4.png";
 
  // mobile / alternate versions if you have them
 
