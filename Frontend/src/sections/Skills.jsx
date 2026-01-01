@@ -49,14 +49,14 @@ export default function Skills() {
       {/* Horizontal Scroller */}
       <div className="relative w-full overflow-hidden">
         <motion.div
-          className="flex gap-10 text-6xl text-[#1cd8d2]"
+          className="flex gap-6 sm:gap-10 text-4xl sm:text-6xl text-[#1cd8d2]"
           animate={{ x: ["0%", "-50%"] }}
           transition={{ duration: 35, repeat: Infinity, ease: "linear" }}
         >
           {repeated.map((skill, i) => (
             <div
               key={i}
-              className="flex flex-col items-center gap-2 min-w-[120px]"
+              className="flex flex-col items-center gap-2 min-w-[80px] sm:min-w-[120px]"
               title={skill.name}
             >
               <span className="hover:scale-125 transition-transform duration-300">

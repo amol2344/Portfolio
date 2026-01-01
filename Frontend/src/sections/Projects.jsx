@@ -15,7 +15,7 @@ import photo4 from "/src/assets/img1.JPG";
  * Hook: useIsMobile
  * Listens to a media query and returns boolean.
  */
-function useIsMobile(query = "(max-width: 339px)") {
+function useIsMobile(query = "(max-width: 768px)") {
   const [isMobile, setIsMobile] = useState(
     typeof window !== "undefined" && window.matchMedia(query).matches
   );
@@ -155,7 +155,7 @@ export default function Projects() {
                 <div
                   className={`relative w-full overflow-hidden bg-black/20 shadow-2xl ${
                     isMobile ? "mb-6 rounded-lg" : "mb-10 sm:mb-12 rounded-xl"
-                  } h-[62vh] sm:h-[66vh]`}
+                  } h-[55vh] sm:h-[66vh]`}
                   style={{ zIndex: 10, transition: "box-shadow 250ms ease" }}
                 >
                   <motion.img
