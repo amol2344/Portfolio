@@ -4,7 +4,7 @@ import ParticlesBackground from "../components/Particlesbackground";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import Navbar from "../components/Navbar";
 import avator from "../assets/img8.png";
-
+import Resume from "../public/AMOL_PATIL_Resume (4).pdf"
 const socials = [
   { Icon: FaXTwitter, label: "X", href: "https://twitter.com" },
   { Icon: FaLinkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/amol-patil-a083a9288" },
@@ -124,9 +124,11 @@ export default function Home() {
                 View My Work
               </a>
               <a
-                href="/AMOL_PATIL_Resume (4).pdf"
+               href={Resume}
                 download
-                className="px-6 py-3 rounded-full text-lg font-medium text-black bg-white hover:bg-gray-200 shadow-lg hover:scale-105 transition-all"
+                     target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 rounded-full bg-white text-black"
               >
                 MY Resume
               </a>
