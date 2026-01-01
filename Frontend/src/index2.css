@@ -1,0 +1,4 @@
+.scroll-container {
+  position: relative; /* <-- This fixes the warning */
+  overflow: auto;     /* optional, if scrollable */
+}
